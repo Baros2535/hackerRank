@@ -17,6 +17,7 @@ public class InterviewSolution2 {
         int sizeOfList = sizeOfList(str);
         while (words.size()!=sizeOfList) {
             word="";
+
             while (word.length()!=str.length()) {
                 int b=random.nextInt(str.length());
                 if (!index.contains(new Integer(b)))
